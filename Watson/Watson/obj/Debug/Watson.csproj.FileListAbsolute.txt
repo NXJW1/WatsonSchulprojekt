@@ -1,0 +1,7 @@
+C:\Users\Rene\AppData\Local\Temporary Projects\Watson\bin\Debug\Watson.exe.config
+d:\Users\Rene\Documents\Visual Studio 2015\Projects\Watson\Watson\bin\Debug\Watson.exe.config
+d:\Users\Rene\Documents\Visual Studio 2015\Projects\Watson\Watson\bin\Debug\Watson.exe
+d:\Users\Rene\Documents\Visual Studio 2015\Projects\Watson\Watson\bin\Debug\Watson.pdb
+d:\Users\Rene\Documents\Visual Studio 2015\Projects\Watson\Watson\obj\Debug\Watson.csprojResolveAssemblyReference.cache
+d:\Users\Rene\Documents\Visual Studio 2015\Projects\Watson\Watson\obj\Debug\Watson.exe
+d:\Users\Rene\Documents\Visual Studio 2015\Projects\Watson\Watson\obj\Debug\Watson.pdb
