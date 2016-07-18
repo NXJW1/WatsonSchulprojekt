@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Management.Instrumentation;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,7 +16,9 @@ namespace Watson
 
         public Rechner()
         {
-
+            os = Environment.OSVersion.ToString();
+            name = Environment.MachineName;
+            //TODO: MAC-Adresse hinzufügen            
         }
     }
 }
