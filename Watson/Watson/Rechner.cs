@@ -18,7 +18,17 @@ namespace Watson
         {
             os = Environment.OSVersion.ToString();
             name = Environment.MachineName;
-            //TODO: MAC-Adresse hinzufügen            
+            
+            NetworkInterface[] NetworkAdapters = NetworkInterface.GetAllNetworkInterfaces();
+
+            foreach (NetworkInterface adapter in NetworkAdapters)
+            {
+                if (adapter.NetworkInterfaceType.ToString() == "Ethernet")
+                {
+                    MAC = adapter.GetPhysicalAddress().ToString();
+                    break;
+                }
+            }        
         }
     }
 }
