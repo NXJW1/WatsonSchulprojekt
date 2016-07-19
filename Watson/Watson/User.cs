@@ -8,6 +8,12 @@ namespace Watson
 {
     class User
     {
+        private string name;
         private List<Report> reports;
+
+        public User(string name)
+        {
+            this.name = name;
+        }
     }
 }
